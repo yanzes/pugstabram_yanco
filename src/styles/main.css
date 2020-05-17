@@ -5,14 +5,17 @@ body {
   padding: 0;
 }
 
+
 h1 {
   margin: 0;
   padding: 0;
+  
 }
 
 .Header {
   background-color: white;
 }
+
 
 .Header-container {
   display: grid;
@@ -40,5 +43,33 @@ h1 {
 }
 
 .Header h1 {
-  color: black;
+  color: rgb(56, 48, 48);
+  font-size: 350%;
+  font-family: 'Grand Hotel', cursive;
+}
+
+.Main_container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 2em;
+  padding: 2em 0;
+}
+
+.picture_container{
+  border: 1px solid rgba(219, 219, 219, 1);
+  border-radius: 6px;
+  background-color: white;
+  margin: 0 0 6em 0;
+}
+
+
+.card_header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.foto_container{
+  display: grid;
+ 
 }
